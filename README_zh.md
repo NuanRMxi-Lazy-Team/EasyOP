@@ -1,5 +1,9 @@
 # EasyOP
 
+[![License](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.8+-blue.svg)
+![Fabric](https://img.shields.io/badge/Loader-Fabric-orange.svg)
+
 EasyOP 是一个基于 Fabric 的 Minecraft 模组，为服务器管理员和单人游戏玩家提供直观的游戏内控制面板。它通过图形用户界面 (HUD) 简化了常见的管理任务。
 
 ## 功能

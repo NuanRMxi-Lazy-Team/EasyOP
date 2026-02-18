@@ -1,5 +1,9 @@
 # EasyOP
 
+[![License](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.8+-blue.svg)
+![Fabric](https://img.shields.io/badge/Loader-Fabric-orange.svg)
+
 EasyOP is a Fabric-based Minecraft mod that provides an intuitive in-game control panel for server administrators and single-player world owners. It simplifies common management tasks through a graphical user interface (HUD).
 
 ## Features

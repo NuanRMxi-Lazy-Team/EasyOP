@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "easyop",
+  "version": "${version}",
+  "name": "EasyOP",
+  "description": "A in-game control panel to easily manage this server or single-game",
+  "authors": ["北宫千瞳"],
+  "contact": {},
+  "license": "MPL-2.0",
+  "icon": "assets/easyop/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "cn.moerain.client.easyopDataGenerator"
+    ],
+    "client": [
+      "cn.moerain.client.easyopClient"
+    ],
+    "main": [
+      "cn.moerain.easyop"
+    ]
+  },
+  "mixins": [
+    "easyop.mixins.json",
+    {
+      "config": "easyop.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
