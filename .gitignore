@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Minecraft / Fabric
+run/
+.fabric/
+
+# Logs
+logs/
+*.log
+*.log.gz
+
+# Local properties
+local.properties
+
+# macOS
+.DS_Store
